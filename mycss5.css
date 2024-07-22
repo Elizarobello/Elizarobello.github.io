@@ -1,0 +1,86 @@
+#tempususario_txt{
+    font-family: Arial;
+    font-weight: bold;
+    text-align:right;
+    font-size:16px;
+    color: #020108;
+    border-radius: 4px;
+}
+#sacarcubeta_btn{
+    background-color: #ffe02f;
+    border-color: #ffe02f;
+    border-radius: 10px;
+}
+
+#tapa_btn{
+    background-color: #b3b1ae;
+    background-color: #b3b1ae;
+    border-radius: 10px;
+}
+
+#cubetamedida_btn{
+    background-color: #faab0ec2;
+    border-color: #faab0ec2;
+    border-radius: 10px;
+}
+
+#cubetablanca_btn{
+    background-color: #ffffff;
+    border-color: #ffffff;
+    border-radius: 10px;
+}
+
+#termoini_btn{
+    background-color: chartreuse;
+    border-color: chartreuse;
+    border-radius: 10px;
+}
+
+#termopausa_btn{
+    background-color: cornflowerblue;
+    border-color: cornflowerblue;
+    border-radius: 10px;
+}
+
+#termoreini_btn{
+    background-color: gold;
+    border-color: gold;
+    border-radius: 10px;
+}
+#blanco_btn{
+    background-color: darkblue;
+    border-color: darkblue;
+    border-radius: 10px;
+    border-radius: 10px;
+}
+#abs_btn{
+    background-color: darkgreen;
+    border-color: darkgreen;
+    border-radius: 10px;
+}
+#absorbancia_txt{
+    font-family: Arial;
+    font-weight: bold;
+    text-align:right;
+    font-size:16px;
+    color: #020108;
+    border-radius: 4px;
+}
+
+#resultado_txt{
+    font-family: Arial;
+    font-weight: bold;
+    text-align:right;
+    font-size:16px;
+    color: #020108;
+    border-radius: 4px;
+}
+
+#displaytermo_txt{
+    font-family: Arial;
+    font-weight: bold;
+    text-align:right;
+    font-size:18px;
+    color: #020108;
+    border-radius: 4px;
+}

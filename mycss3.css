@@ -1,0 +1,97 @@
+#display_txt{
+    font-family: Arial;
+    font-weight: bold;
+    text-align:right;
+    font-size:18px;
+    color: #020108;
+    border-radius: 4px;
+}
+
+#tempsal_txt{
+    font-family: Arial;
+    font-weight: bold;
+    text-align:right;
+    font-size:18px;
+    color: #020108;
+    border-radius: 4px;
+}
+
+#temp_txt{
+    font-family: Arial;
+    font-weight: bold;
+    text-align:right;
+    font-size:16px;
+    color: #020108;
+    border-radius: 4px;
+}
+
+#termoini_btn{
+    background-color: chartreuse;
+    border-color: chartreuse;
+    border-radius: 10px;
+}
+
+#termopausa_btn{
+    background-color: rgb(237, 100, 100);
+    border-color: rgb(237, 100, 100);
+    border-radius: 10px;
+}
+
+#termoreini_btn{
+    background-color: blue  ;
+    border-color: blue;
+    border-radius: 10px;
+}
+
+#tester_btn{
+    background-color:red;
+    border-color: black;
+    border-radius: 10px;
+}
+
+#rojo_btn{
+    background-color:rgb(231, 29, 29);
+    border-color: rgb(231, 29, 29);
+    border-radius: 10px;
+    font-family: Arial;
+    font-weight: bold;
+    text-align:center;
+    color: white;
+    font-size:16px;
+}
+#rojo_btn:hover {
+    background-color: rgb(163, 18, 18);
+    border-color:rgb(163, 18, 18);
+    color: white;
+}
+#negro_btn{
+    background-color:rgb(39, 38, 38);
+    border-color:rgb(39, 38, 38);
+    border-radius: 10px;
+    font-family: Arial;
+    font-weight: bold;
+    text-align:center;
+    color: white;
+    font-size:16px;
+}
+#negro_btn:hover {
+    background-color: black;
+    border-color:black;
+    color: white;
+}
+
+#robinete_btn{
+    background-color:rgb(58, 124, 211);
+    border-color:rgb(58, 124, 211);
+    border-radius: 10px;
+    font-family: Arial;
+    font-weight: bold;
+    text-align:center;
+    color: white;
+    font-size:16px;
+}
+#robinete_btn:hover {
+    background-color: rgba(23, 20, 185, 0.986);
+    border-color:rgba(23, 20, 185, 0.986);
+    color: white;
+}

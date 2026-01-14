@@ -3,7 +3,7 @@
 var p; // shortcut to reference prototypes
 var lib={};var ss={};var img={};
 lib.ssMetadata = [
-		{name:"12Cronopios_atlas_", frames: [[1015,0,1006,1010],[1015,1012,81,81],[0,0,1013,1017]]}
+		{name:"12Cronopios_atlas_", frames: [[0,1019,1006,1010],[1008,1019,40,41],[0,0,1013,1017]]}
 ];
 
 
@@ -11,21 +11,21 @@ lib.ssMetadata = [
 
 
 
-(lib.CachedTexturedBitmap_11 = function() {
+(lib.CachedTexturedBitmap_7 = function() {
 	this.initialize(ss["12Cronopios_atlas_"]);
 	this.gotoAndStop(0);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedTexturedBitmap_12 = function() {
+(lib.CachedTexturedBitmap_8 = function() {
 	this.initialize(ss["12Cronopios_atlas_"]);
 	this.gotoAndStop(1);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedTexturedBitmap_13 = function() {
+(lib.CachedTexturedBitmap_9 = function() {
 	this.initialize(ss["12Cronopios_atlas_"]);
 	this.gotoAndStop(2);
 }).prototype = p = new cjs.Sprite();
@@ -52,7 +52,7 @@ function getMCSymbolPrototype(symbol, nominalBounds, frameBounds) {
 	this.initialize(mode,startPosition,loop,{});
 
 	// Cuadricula
-	this.instance = new lib.CachedTexturedBitmap_11();
+	this.instance = new lib.CachedTexturedBitmap_7();
 	this.instance.parent = this;
 	this.instance.setTransform(61.5,55.15,0.5,0.5);
 
@@ -65,7 +65,7 @@ function getMCSymbolPrototype(symbol, nominalBounds, frameBounds) {
 	this.initialize(mode,startPosition,loop,{});
 
 	// Capa_1
-	this.instance = new lib.CachedTexturedBitmap_13();
+	this.instance = new lib.CachedTexturedBitmap_9();
 	this.instance.parent = this;
 	this.instance.setTransform(-245.35,-245.35,0.5,0.5);
 
@@ -78,9 +78,9 @@ function getMCSymbolPrototype(symbol, nominalBounds, frameBounds) {
 	this.initialize(mode,startPosition,loop,{});
 
 	// Capa_1
-	this.instance = new lib.CachedTexturedBitmap_12();
+	this.instance = new lib.CachedTexturedBitmap_8();
 	this.instance.parent = this;
-	this.instance.setTransform(-22.25,-25.55,0.5675,0.5675);
+	this.instance.setTransform(-22.25,-25.55,1.1364,1.1364);
 
 	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1));
 
@@ -114,7 +114,7 @@ function getMCSymbolPrototype(symbol, nominalBounds, frameBounds) {
 	this.Capa_1 = new lib.ch_Capa_1();
 	this.Capa_1.name = "Capa_1";
 	this.Capa_1.parent = this;
-	this.Capa_1.setTransform(0.7,-2.6,1,1,0,0,0,0.7,-2.6);
+	this.Capa_1.setTransform(0.5,-2.2,1,1,0,0,0,0.5,-2.2);
 	this.Capa_1.depth = 0;
 	this.Capa_1.isAttachedToCamera = 0
 	this.Capa_1.isAttachedToMask = 0
@@ -124,7 +124,7 @@ function getMCSymbolPrototype(symbol, nominalBounds, frameBounds) {
 
 	this.timeline.addTween(cjs.Tween.get(this.Capa_1).wait(1));
 
-}).prototype = getMCSymbolPrototype(lib.ch, new cjs.Rectangle(-22.2,-25.5,45.9,45.9), null);
+}).prototype = getMCSymbolPrototype(lib.ch, new cjs.Rectangle(-22.2,-25.5,45.4,46.6), null);
 
 
 (lib.Escena_1_clips = function(mode,startPosition,loop) {
@@ -134,71 +134,80 @@ function getMCSymbolPrototype(symbol, nominalBounds, frameBounds) {
 	this.movieClip_18 = new lib.ch();
 	this.movieClip_18.name = "movieClip_18";
 	this.movieClip_18.parent = this;
-	this.movieClip_18.setTransform(414.25,480.15,0.8759,0.881,0,0,0,0.1,0.1);
+	this.movieClip_18.setTransform(499.5,402.8,0.4374,0.44,0,0,0,0.1,0.1);
 
 	this.movieClip_17 = new lib.ch();
 	this.movieClip_17.name = "movieClip_17";
 	this.movieClip_17.parent = this;
-	this.movieClip_17.setTransform(324.8,474.45,0.8759,0.881,0,0,0,0.1,0.1);
+	this.movieClip_17.setTransform(440.4,513.5,0.4374,0.44,0,0,0,0.2,0.1);
 
 	this.movieClip_16 = new lib.ch();
 	this.movieClip_16.name = "movieClip_16";
 	this.movieClip_16.parent = this;
-	this.movieClip_16.setTransform(123.2,474.45,0.8759,0.881,0,0,0,0.1,0.1);
+	this.movieClip_16.setTransform(149.2,471.65,0.4374,0.44,0,0,0,0.1,0.1);
 
 	this.movieClip_15 = new lib.ch();
 	this.movieClip_15.name = "movieClip_15";
 	this.movieClip_15.parent = this;
-	this.movieClip_15.setTransform(476.7,366.85,0.8759,0.881,0,0,0,0.1,0.1);
+	this.movieClip_15.setTransform(417.45,232.9,0.4374,0.44,0,0,0,0.2,0.1);
 
 	this.movieClip_14 = new lib.ch();
 	this.movieClip_14.name = "movieClip_14";
 	this.movieClip_14.parent = this;
-	this.movieClip_14.setTransform(222.9,353,0.8759,0.881,0,0,0,0.1,0.1);
+	this.movieClip_14.setTransform(175.3,250.45,0.4374,0.44,0,0,0,0.1,0.1);
 
 	this.movieClip_13 = new lib.ch();
 	this.movieClip_13.name = "movieClip_13";
 	this.movieClip_13.parent = this;
-	this.movieClip_13.setTransform(441.7,261.9,0.8759,0.881,0,0,0,0.1,0.1);
+	this.movieClip_13.setTransform(482,118.8,0.4374,0.44,0,0,0,0.1,0.2);
 
 	this.movieClip_12 = new lib.ch();
 	this.movieClip_12.name = "movieClip_12";
 	this.movieClip_12.parent = this;
-	this.movieClip_12.setTransform(315.6,307.4,0.8759,0.881,0,0,0,0.1,0.1);
+	this.movieClip_12.setTransform(336.95,203.15,0.4374,0.44,0,0,0,0.2,0.2);
 
 	this.movieClip_11 = new lib.ch();
 	this.movieClip_11.name = "movieClip_11";
 	this.movieClip_11.parent = this;
-	this.movieClip_11.setTransform(139.25,238.45,0.8759,0.881,0,0,0,0.1,0.1);
+	this.movieClip_11.setTransform(274,307.05,0.4374,0.44,0,0,0,0.2,0.2);
 
 	this.movieClip_10 = new lib.ch();
 	this.movieClip_10.name = "movieClip_10";
 	this.movieClip_10.parent = this;
-	this.movieClip_10.setTransform(441.7,116.95,0.8759,0.881,0,0,0,0.1,0.1);
+	this.movieClip_10.setTransform(300.9,454.05,0.4374,0.44,0,0,0,0.1,0.1);
 
 	this.movieClip_9 = new lib.ch();
 	this.movieClip_9.name = "movieClip_9";
 	this.movieClip_9.parent = this;
-	this.movieClip_9.setTransform(315.6,176.85,0.8759,0.881,0,0,0,0.1,0.1);
+	this.movieClip_9.setTransform(149.25,159.65,0.4374,0.44,0,0,0,0.2,0.2);
 
 	this.movieClip_8 = new lib.ch();
 	this.movieClip_8.name = "movieClip_8";
 	this.movieClip_8.parent = this;
-	this.movieClip_8.setTransform(243.45,103.2,0.8759,0.881,0,0,0,0.1,0.1);
+	this.movieClip_8.setTransform(300.9,101.15,0.4374,0.44,0,0,0,0.1,0.1);
 
 	this.movieClip_7 = new lib.ch();
 	this.movieClip_7.name = "movieClip_7";
 	this.movieClip_7.parent = this;
-	this.movieClip_7.setTransform(131.2,122.95,0.8759,0.881,0,0,0,0.1,0.1);
+	this.movieClip_7.setTransform(140.15,83.6,0.4374,0.44,0,0,0,0.1,0.2);
 
+	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.movieClip_7},{t:this.movieClip_8},{t:this.movieClip_9},{t:this.movieClip_10},{t:this.movieClip_11},{t:this.movieClip_12},{t:this.movieClip_13},{t:this.movieClip_14},{t:this.movieClip_15},{t:this.movieClip_16},{t:this.movieClip_17},{t:this.movieClip_18}]}).wait(1));
+
+}).prototype = getMCSymbolPrototype(lib.Escena_1_clips, null, null);
+
+
+(lib.Escena_1_bordes = function(mode,startPosition,loop) {
+	this.initialize(mode,startPosition,loop,{});
+
+	// bordes
 	this.cuadrado = new lib.cuadrado();
 	this.cuadrado.name = "cuadrado";
 	this.cuadrado.parent = this;
 	this.cuadrado.setTransform(305.35,298.45);
 
-	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.cuadrado},{t:this.movieClip_7},{t:this.movieClip_8},{t:this.movieClip_9},{t:this.movieClip_10},{t:this.movieClip_11},{t:this.movieClip_12},{t:this.movieClip_13},{t:this.movieClip_14},{t:this.movieClip_15},{t:this.movieClip_16},{t:this.movieClip_17},{t:this.movieClip_18}]}).wait(1));
+	this.timeline.addTween(cjs.Tween.get(this.cuadrado).wait(1));
 
-}).prototype = getMCSymbolPrototype(lib.Escena_1_clips, null, null);
+}).prototype = getMCSymbolPrototype(lib.Escena_1_bordes, null, null);
 
 
 // stage content:
@@ -236,7 +245,7 @@ function getMCSymbolPrototype(symbol, nominalBounds, frameBounds) {
 
 	// timeline functions:
 	this.frame_0 = function() {
-		this.cuadrado = this.clips.cuadrado;
+		this.cuadrado = this.bordes.cuadrado;
 		this.movieClip_7 = this.clips.movieClip_7;
 		this.movieClip_8 = this.clips.movieClip_8;
 		this.movieClip_9 = this.clips.movieClip_9;
@@ -301,8 +310,8 @@ function getMCSymbolPrototype(symbol, nominalBounds, frameBounds) {
 		var vy18 = -1;
 		
 		// --- DIMENSIONES FIJAS ---
-		var ANCHO = 50;
-		var ALTO = 50;
+		var ANCHO = 25;
+		var ALTO = 25;
 		
 		// --- INICIO DE LA ANIMACIÓN ---
 		if (mc7 && mc18) { // Verificación rápida del primero y el último
@@ -749,16 +758,30 @@ function getMCSymbolPrototype(symbol, nominalBounds, frameBounds) {
 	// actions tween:
 	this.timeline.addTween(cjs.Tween.get(this).call(this.frame_0).wait(1));
 
+	// bordes_obj_
+	this.bordes = new lib.Escena_1_bordes();
+	this.bordes.name = "bordes";
+	this.bordes.parent = this;
+	this.bordes.setTransform(313.2,307.4,1,1,0,0,0,313.2,307.4);
+	this.bordes.depth = 0;
+	this.bordes.isAttachedToCamera = 0
+	this.bordes.isAttachedToMask = 0
+	this.bordes.layerDepth = 0
+	this.bordes.layerIndex = 0
+	this.bordes.maskLayerName = 0
+
+	this.timeline.addTween(cjs.Tween.get(this.bordes).wait(1));
+
 	// clips_obj_
 	this.clips = new lib.Escena_1_clips();
 	this.clips.name = "clips";
 	this.clips.parent = this;
-	this.clips.setTransform(313.2,307.4,1,1,0,0,0,313.2,307.4);
+	this.clips.setTransform(319.9,297.4,1,1,0,0,0,319.9,297.4);
 	this.clips.depth = 0;
 	this.clips.isAttachedToCamera = 0
 	this.clips.isAttachedToMask = 0
 	this.clips.layerDepth = 0
-	this.clips.layerIndex = 0
+	this.clips.layerIndex = 1
 	this.clips.maskLayerName = 0
 
 	this.timeline.addTween(cjs.Tween.get(this.clips).wait(1));
@@ -772,7 +795,7 @@ function getMCSymbolPrototype(symbol, nominalBounds, frameBounds) {
 	this.Cuadricula.isAttachedToCamera = 0
 	this.Cuadricula.isAttachedToMask = 0
 	this.Cuadricula.layerDepth = 0
-	this.Cuadricula.layerIndex = 1
+	this.Cuadricula.layerIndex = 2
 	this.Cuadricula.maskLayerName = 0
 
 	this.timeline.addTween(cjs.Tween.get(this.Cuadricula).wait(1));
@@ -788,7 +811,7 @@ lib.properties = {
 	color: "#FFFFFF",
 	opacity: 1.00,
 	manifest: [
-		{src:"images/12Cronopios_atlas_.png?1765129908074", id:"12Cronopios_atlas_"}
+		{src:"images/12Cronopios_atlas_.png?1768351721699", id:"12Cronopios_atlas_"}
 	],
 	preloads: []
 };
